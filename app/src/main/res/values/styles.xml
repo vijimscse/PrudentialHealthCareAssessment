@@ -6,6 +6,40 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/defaultTextViewStyle</item>
+        <item name="android:editTextStyle">@style/defaultEditTextViewStyle</item>
+        <item name="buttonStyle">@style/defaultButtonStyle</item>
+      <!--  <item name="window">@color/white</item>-->
     </style>
 
+    <!-- Default Button Style -->
+    <style name="defaultButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:background">@color/button_background</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:paddingLeft">@dimen/dimen_30</item>
+        <item name="android:paddingRight">@dimen/dimen_30</item>
+        <item name="android:paddingTop">@dimen/dimen_8</item>
+        <item name="android:paddingBottom">@dimen/dimen_8</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/buttons_font_size</item>
+        <item name="android:fontFamily">@font/text_font</item>
+    </style>
+
+    <!-- Default Text view styles -->
+    <style name="defaultTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:fontFamily">@font/text_font</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Default Text view styles -->
+    <style name="defaultEditTextViewStyle" parent="android:Widget.EditText">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/text_font</item>
+    </style>
+
+    <dimen name="body_font_size">14sp</dimen>
 </resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="activity_content_padding">16dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="buttons_font_size">16sp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="pruLogoWidth">130dp</dimen>
+    <dimen name="pruLogoHeight">105dp</dimen>
+</resources>

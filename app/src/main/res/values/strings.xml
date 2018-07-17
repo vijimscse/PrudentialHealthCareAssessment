@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PrudentialAssessment</string>
+    <string name="phoneNumber">Mobile Number</string>
+    <string name="signIn">Sign In</string>
+    <string name="or">OR</string>
+    <string name="password">Password</string>
 </resources>
