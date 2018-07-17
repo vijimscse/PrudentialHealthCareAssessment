@@ -4,4 +4,6 @@
     <string name="signIn">Sign In</string>
     <string name="or">OR</string>
     <string name="password">Password</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="validate_otp">Validate OTP</string>
 </resources>

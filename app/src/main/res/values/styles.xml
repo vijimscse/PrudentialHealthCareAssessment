@@ -14,13 +14,13 @@
 
     <!-- Default Button Style -->
     <style name="defaultButtonStyle" parent="android:style/Widget.Button">
-        <item name="android:background">@color/button_background</item>
+        <item name="android:background">@drawable/button_background</item>
         <item name="android:textColor">@color/buttonTextColor</item>
         <item name="android:paddingLeft">@dimen/dimen_30</item>
         <item name="android:paddingRight">@dimen/dimen_30</item>
         <item name="android:paddingTop">@dimen/dimen_8</item>
         <item name="android:paddingBottom">@dimen/dimen_8</item>
-        <item name="android:textStyle">normal</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">@dimen/buttons_font_size</item>
         <item name="android:fontFamily">@font/text_font</item>

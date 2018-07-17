@@ -11,4 +11,6 @@
     <dimen name="dimen_4">4dp</dimen>
     <dimen name="pruLogoWidth">130dp</dimen>
     <dimen name="pruLogoHeight">105dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
 </resources>
